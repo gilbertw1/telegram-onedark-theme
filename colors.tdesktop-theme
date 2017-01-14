@@ -119,8 +119,8 @@ titleButtonBgOver: #dbdbdb;                     // Title bar min/max background 
 titleButtonFgOver: #9a9a9a;                     // Title bar min/max icons 
 titleButtonCloseBgOver: #e81123;
 titleButtonCloseFgOver: COLOR_WHITE;
-titleFgActive: #3e3c3e;                         // Active title bar text (Mac)
-titleFg: #acacac;                               // Inactive title bar text (Mac)
+titleFgActive: COLOR_WHITE;                         // Active title bar text (Mac)
+titleFg: COLOR_GRAY;                               // Inactive title bar text (Mac)
 
 // tray icon
 trayCounterBg: #f23c34;                         // Unread messages counter background in tray (not muted, default red)
