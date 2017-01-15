@@ -190,7 +190,7 @@ dialogsVerifiedIconFg: COLOR_WHITE;             // Verification icon check color
 dialogsSendingIconFg: #c1c1c1;
 dialogsSentIconFg: COLOR_CYAN_RIPPLE_ACTIVE;
 dialogsUnreadBg: COLOR_BLUE_LIGHT;                       // Chats list unread counter background
-dialogsUnreadBgMuted: #999999;                  // Unread counter (for muted chats) + pins color(?)
+dialogsUnreadBgMuted: COLOR_GRAY;                  // Unread counter (for muted chats) + pins color(?)
 dialogsUnreadFg: COLOR_WHITE;                   // Unread counter text color
 
 dialogsBgOver: #464746;                         // Inactive chat color on hover
@@ -217,11 +217,11 @@ dialogsTextFgServiceActive: COLOR_DARK;
 dialogsDraftFgActive: #cc241d;                  // "Draft" word when chat is selected
 dialogsVerifiedIconBgActive: COLOR_DARK;
 dialogsVerifiedIconFgActive: COLOR_DARK;
-dialogsSendingIconFgActive: COLOR_DARK;
-dialogsSentIconFgActive: COLOR_DARK;
+dialogsSendingIconFgActive: COLOR_BLUE_LIGHT;
+dialogsSentIconFgActive: COLOR_BLUE_LIGHT;
 dialogsUnreadBgActive: COLOR_DARK;
 dialogsUnreadBgMutedActive: COLOR_DARK;
-dialogsUnreadFgActive: COLOR_DARK;
+dialogsUnreadFgActive: COLOR_BLUE_LIGHT;
 
 dialogsForwardBg: dialogsBgActive;
 dialogsForwardFg: dialogsNameFgActive;
