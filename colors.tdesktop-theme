@@ -67,9 +67,9 @@ lightButtonBgRipple: #363838;                   // Secondary button background c
 lightButtonFg: COLOR_WHITE;                     // Secondary button text color
 lightButtonFgOver: lightButtonFg;
 
-attentionButtonFg: #d84343;
-attentionButtonFgOver: #d84343;
-attentionButtonBgOver: #ef9592;
+attentionButtonFg: #fb4934;
+attentionButtonFgOver: COLOR_DARK;
+attentionButtonBgOver: #d84343;
 attentionButtonBgRipple: #d87c79;
 
 outlineButtonBg: COLOR_DARK;                    // Buttons background in profiles (shared media)
@@ -86,8 +86,8 @@ menuSubmenuArrowFg: #373737;                    // (unknown)
 menuFgDisabled: #cccccc;
 menuSeparatorFg: COLOR_DARK;                    // (unknown)
 
-scrollBarBg: COLOR_CYAN_RIPPLE_ACTIVE;                         // Scrollbar (chats list) current position
-scrollBarBgOver: COLOR_CYAN_RIPPLE_ACTIVE;                     // Mouse over scrollbar (chats list) current position
+scrollBarBg: #8ec07cbc;                         // Scrollbar (chats list) current position
+scrollBarBgOver: #8ec07cbc;                     // Mouse over scrollbar (chats list) current position
 scrollBg: #0000001a;                            // Scrollbar (chats list) background
 scrollBgOver: #0000002c;                        // Mouse over scrollbar (chats list) background
 
@@ -123,8 +123,8 @@ titleFgActive: COLOR_WHITE;                         // Active title bar text (Ma
 titleFg: COLOR_GRAY;                               // Inactive title bar text (Mac)
 
 // tray icon
-trayCounterBg: #f23c34;                         // Unread messages counter background in tray (not muted, default red)
-trayCounterBgMute: #888888;                     // Unread messages counter background in tray (muted, default gray)
+trayCounterBg: #fb4934;                         // Unread messages counter background in tray (not muted, default red)
+trayCounterBgMute: #cc241d;                     // Unread messages counter background in tray (muted, default gray)
 trayCounterFg: COLOR_WHITE;                     // Unread messages counter text (number)
 trayCounterBgMacInvert: COLOR_WHITE;            
 trayCounterFgMacInvert: COLOR_WHITE;
@@ -167,12 +167,12 @@ introTitleFg: windowBoldFg;
 introDescriptionFg: COLOR_GRAY;
 introErrorFg: COLOR_GRAY;
 
-introCoverTopBg: #0f89d0;                      // These lines refer to Telegram "plane" logo...
-introCoverBottomBg: #39b0f0;                   // ... on "startup" screen, before entering phone number...
-introCoverIconsFg: #5ec6ff;                    // ... unfortunately, this requires lots of logouts and logins...
-introCoverPlaneTrace: #5ec6ff69;               // ... so not possible to test this. Sorry!
-introCoverPlaneInner: #c6d8e8;
-introCoverPlaneOuter: #a1bed4;
+introCoverTopBg: COLOR_BLUE_LIGHT;                   // ... on "startup" screen, before entering phone number...
+introCoverBottomBg: COLOR_BLUE_LIGHT;                   // ... on "startup" screen, before entering phone number...
+introCoverIconsFg: COLOR_BLUE_DARK;                    // ... unfortunately, this requires lots of logouts and logins...
+introCoverPlaneTrace: COLOR_BLUE_LIGHT;               // ... so not possible to test this. Sorry!
+introCoverPlaneInner: COLOR_BLUE_DARK;
+introCoverPlaneOuter: COLOR_BLUE_DARK;
 introCoverPlaneTop: COLOR_WHITE;
 
 dialogsMenuIconFg: menuIconFg;
@@ -282,8 +282,8 @@ historyPeer8NameFg: #fabd2f;                    // Yellow
 historyPeer8UserpicBg: #b16286;                   // Dark Magenta
 historyPeerUserpicFg: COLOR_WHITE;
 
-historyScrollBarBg: #15cd7d7a;                  // Scrollbar (history view) background
-historyScrollBarBgOver: #15cd7dbc;              // Scrollbar (history view) background (hover)
+historyScrollBarBg: #8ec07c7a;                  // Scrollbar (history view) background
+historyScrollBarBgOver: #8ec07cbc;              // Scrollbar (history view) background (hover)
 historyScrollBg: #6f72724d;                     // Scrollbar (history view) current position background
 historyScrollBgOver: #6f727280;                 // Scrollbar (history view) current position background (hover)
 
@@ -420,7 +420,7 @@ notificationSampleNameFg: #939393;
 
 mainMenuBg: COLOR_DARK;                         // Left menu background (lower part, not buttons)
 mainMenuCoverBg: dialogsBgActive;               // Left menu background (upper part)
-mainMenuCoverFg: COLOR_WHITE;
+mainMenuCoverFg: COLOR_DARK;
 mediaPlayerBg: COLOR_DARK;                      // Music player background
 mediaPlayerActiveFg: COLOR_BLUE_DARK;          // Clickable Next song/Prev song button in music player
 mediaPlayerInactiveFg: #4f5151;                 // "Disabled" Next song/Prev song button in music player
