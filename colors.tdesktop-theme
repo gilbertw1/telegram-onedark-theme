@@ -22,7 +22,7 @@ COLOR_GRAY: #928374;                            // #999999
 COLOR_DARK: #282828;                            // Main color (dark one)
 COLOR_BLUE_DARK: #458588;                      // Accent color
 COLOR_BLUE_LIGHT: #83a598;                     // Accent color #2 (just like first one with slight changes)
-COLOR_CYAN_RIPPLE_ACTIVE: #8ec07c;
+COLOR_CYAN_RIPPLE_ACTIVE: #689d6a;
 
 COLOR_WHITE: #ebdbb2;
 COLOR_BLACK: #282828;
@@ -52,7 +52,7 @@ imageBgTransparent: COLOR_WHITE;
 
 //widgets
 activeButtonBg: COLOR_BLUE_DARK;               // Currently selected button background
-activeButtonBgOver: #COLOR_BLUE_LIGHT;                    // Mouse over currently selected button background
+activeButtonBgOver: #689d6a;                    // Mouse over currently selected button background
 activeButtonBgRipple: COLOR_CYAN_RIPPLE_ACTIVE;// Primary button background color (and active chat) - Press & hold 
 activeButtonFg: COLOR_WHITE;                    // Currently selected button text
 activeButtonFgOver: activeButtonFg;             // Mouse over currently selected button text
@@ -86,8 +86,8 @@ menuSubmenuArrowFg: #373737;                    // (unknown)
 menuFgDisabled: #cccccc;
 menuSeparatorFg: COLOR_DARK;                    // (unknown)
 
-scrollBarBg: #8ec07cbc;                         // Scrollbar (chats list) current position
-scrollBarBgOver: #8ec07cbc;                     // Mouse over scrollbar (chats list) current position
+scrollBarBg: #689d6abc;                         // Scrollbar (chats list) current position
+scrollBarBgOver: #689d6abc;                     // Mouse over scrollbar (chats list) current position
 scrollBg: #0000001a;                            // Scrollbar (chats list) background
 scrollBgOver: #0000002c;                        // Mouse over scrollbar (chats list) background
 
@@ -282,8 +282,8 @@ historyPeer8NameFg: #fabd2f;                    // Yellow
 historyPeer8UserpicBg: #b16286;                   // Dark Magenta
 historyPeerUserpicFg: COLOR_WHITE;
 
-historyScrollBarBg: #8ec07c7a;                  // Scrollbar (history view) background
-historyScrollBarBgOver: #8ec07cbc;              // Scrollbar (history view) background (hover)
+historyScrollBarBg: #689d6a7a;                  // Scrollbar (history view) background
+historyScrollBarBgOver: #689d6abc;              // Scrollbar (history view) background (hover)
 historyScrollBg: #6f72724d;                     // Scrollbar (history view) current position background
 historyScrollBgOver: #6f727280;                 // Scrollbar (history view) current position background (hover)
 
@@ -324,8 +324,8 @@ msgFileThumbLinkInFgSelected: lightButtonFgOver;
 msgFileThumbLinkOutFg: #5eba5b;
 msgFileThumbLinkOutFgSelected: #31a298;
 msgFileInBg: windowBgActive;
-msgFileInBgOver: #63b56a;
-msgFileInBgSelected: #63b56a;
+msgFileInBgOver: #689d6a;
+msgFileInBgSelected: #689d6a;
 msgFileOutBg: COLOR_BLUE_DARK;
 msgFileOutBgOver: #6bc272;
 msgFileOutBgSelected: #5fb389;
