@@ -1,12 +1,12 @@
-# Gruvbox Theme for Telegram Desktop
+# One Dark Theme for Telegram Desktop
 
-This repo contains a gruvbox theme for telegram desktop.
+This repo contains a one dark theme for telegram desktop.
 
 This theme was forked from and builds upon the work by MasterGroosha and his ["Solid Dark" theme](https://github.com/MasterGroosha/telegram-soliddark-theme)
 
 ## Preview
 
-![Gruvbox](gruvbox-theme-preview.png)
+![One Dark](gruvbox-theme-preview.png)
 
 ## Install
 
